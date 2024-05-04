@@ -1,42 +1,126 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1 {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.3;
+  font-weight: 600;
+  font-size: 2.5rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  font-size: 3.125rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h4 {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.3;
+  font-weight: 600;
 }
 
-.card {
-  padding: 2em;
+.banner-img {
+  /* The image used */
+  background-image: url('https://isocietymanager.com/fronts/images/hero-3.jpg');
+  /* Full height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.read-the-docs {
-  color: #888;
+
+.banner-content {
+  padding-top: 160px;
+  padding-bottom: 100px;
+}
+
+.bg-tra {
+  padding: 1.875rem 1rem;
+  background-color: transparent;
+  transition: all 400ms ease-in-out;
+}
+
+.scrolled {
+  background-color: #fcfcfc !important;
+  box-shadow: 0 0 2px rgba(50, 50, 50, 0.4);
+  padding: 0.875rem 1rem;
+
+}
+
+.nav-links ul li {
+  list-style: none;
+  padding: 10px 15px;
+  color: rgba(255, 255, 255, .85);
+  transition: all 400ms ease-in-out;
+  cursor: pointer;
+}
+
+.nav-links ul li:hover {
+  background-color: rgba(240, 240, 240, 0.2);
+  border-radius: 5px;
+}
+
+.nav-links ul {
+  gap: 10px;
+}
+
+.banner-text {
+  color: #fff;
+}
+
+.banner-para {
+  font-family: 'Josefin Sans';
+  letter-spacing: 1px;
+}
+
+.banner-btns {
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.banner-btns button {
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: all 400ms ease-in-out;
+  cursor: pointer;
+  background-color: #28a745;
+  outline: none;
+}
+
+.banner-btns button:hover {
+  background-color: #218838;
+}
+
+
+/* next section start  */
+.video-section{
+  padding: 140px 0;
+}
+.video-section {
+  background-image: linear-gradient(129deg, rgba(35, 27, 195, 0.7), rgba(152, 19, 177, 0.85));
+}
+
+.letter-spacing {
+  letter-spacing: 2px;
+}
+
+
+
+.youtube-embed {
+  height: 480px;
+  width: 100%;
 }
