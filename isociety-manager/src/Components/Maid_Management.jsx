@@ -1,22 +1,18 @@
 import React from 'react'
 import { FaRegCheckSquare } from "react-icons/fa";
-const Enterprise = () => {
+const Maid_Management = () => {
     return (
         <section>
-            <div className="content-2">
+            <div className="content-2 " style={{ borderTop: "1px solid gray " }}>
                 <div className="container">
                     <div className="row d-flex align-items-center">
-                        <div className="col-md-6 col-xl-6">
-                            <div className='content-2-img'>
-                                <img className='img-fluid' src="https://isocietymanager.com/fronts/images/content-3-3-img.png" alt="" />
-                            </div>
-                        </div>
-                        <div className="col-md-6 col-xl-5">
+
+                        <div className="col-md-6 col-xl-5 offset-xl-1">
                             <h3>
-                                Enterprise Dashboard Interface
+                                Maid Management - SMART Card Tracking
                             </h3>
                             <p>
-                                Single Page View for Multi Sites, excellent control over operation & maintenance
+                                Track Maid/Staff in the society, using Face Recognition ( AI) Smart Card (RFID) solution, Biometric & Face recognition
                             </p>
                             <ul className='content-2-list p-0 m-0'>
                                 <li className="cbox green-icon">
@@ -58,6 +54,11 @@ const Enterprise = () => {
                                 </li>
                             </ul>
                         </div>
+                        <div className="col-md-6 col-xl-6">
+                            <div className='content-2-img'>
+                                <img className='img-fluid' src="https://isocietymanager.com/fronts/images/smart-card.jpg" alt="" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -65,4 +66,4 @@ const Enterprise = () => {
     )
 }
 
-export default Enterprise
+export default Maid_Management

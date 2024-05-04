@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaRegCheckSquare } from "react-icons/fa";
-const Enterprise = () => {
+const Visitor_Management = () => {
     return (
         <section>
             <div className="content-2">
@@ -8,15 +8,15 @@ const Enterprise = () => {
                     <div className="row d-flex align-items-center">
                         <div className="col-md-6 col-xl-6">
                             <div className='content-2-img'>
-                                <img className='img-fluid' src="https://isocietymanager.com/fronts/images/content-3-3-img.png" alt="" />
+                                <img className='img-fluid' src="https://isocietymanager.com/fronts/images/vms-1.png" alt="" />
                             </div>
                         </div>
                         <div className="col-md-6 col-xl-5">
                             <h3>
-                                Enterprise Dashboard Interface
+                                Visitor Management
                             </h3>
                             <p>
-                                Single Page View for Multi Sites, excellent control over operation & maintenance
+                                Track each visitor in the society, capture photograph and detail
                             </p>
                             <ul className='content-2-list p-0 m-0'>
                                 <li className="cbox green-icon">
@@ -65,4 +65,4 @@ const Enterprise = () => {
     )
 }
 
-export default Enterprise
+export default Visitor_Management

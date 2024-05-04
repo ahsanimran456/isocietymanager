@@ -1,60 +1,64 @@
 import React from 'react'
 import { FaRegCheckSquare } from "react-icons/fa";
-const Enterprise = () => {
+
+const Account_Management = () => {
     return (
         <section>
-            <div className="content-2">
+            <div className="content-2 content-6">
                 <div className="container">
                     <div className="row d-flex align-items-center">
                         <div className="col-md-6 col-xl-6">
                             <div className='content-2-img'>
-                                <img className='img-fluid' src="https://isocietymanager.com/fronts/images/content-3-3-img.png" alt="" />
+                                <img className='img-fluid' src="https://isocietymanager.com/fronts/images/content-4-img.png" alt="" />
                             </div>
                         </div>
                         <div className="col-md-6 col-xl-5">
-                            <h3>
-                                Enterprise Dashboard Interface
+                            <h3 className='text-white'>
+                                Accounting Management
                             </h3>
-                            <p>
-                                Single Page View for Multi Sites, excellent control over operation & maintenance
-                            </p>
                             <ul className='content-2-list p-0 m-0'>
                                 <li className="cbox green-icon">
                                     <div>
                                         <FaRegCheckSquare size={14} color={"#48af4b"} />
                                     </div>
-                                    <p>Occupant master directory, occupancy detail, owner/tenant move IN/move OUT, analysis of updated data availablity
+                                    <p>Maintain your Society Accounts online and get financial Statements automatically updated.
                                     </p>
                                 </li>
                                 <li className="cbox green-icon">
                                     <div>
                                         <FaRegCheckSquare size={14} color={"#48af4b"} />
                                     </div>
-                                    <p>Latest status on tickets, Helpdesk team performance analysis, , Complaint nature statistics, TAT, System generated MIS, Auto email </p>
+                                    <p>Journal Entry Posting and General Ledger – for any Account.</p>
                                 </li>
                                 <li className="cbox green-icon">
                                     <div>
                                         <FaRegCheckSquare size={14} color={"#48af4b"} />
                                     </div>
-                                    <p>Latest Notice &amp; Circular with attachment, Read acknoledgement report, Support HINDI, Email/SMS/App Message to Individual/Tower/Block/ALL </p>
+                                    <p>Trial Balance at any point of Time.</p>
                                 </li>
                                 <li className="cbox green-icon">
                                     <div>
                                         <FaRegCheckSquare size={14} color={"#48af4b"} />
                                     </div>
-                                    <p><b>Face Recognition</b> / ESSL Biometric Attendance, Maid/Staff tracking by SMART CARD (RFID), Intimation to Occupant</p>
+                                    <p>Income and Expense Account automatically prepared.</p>
                                 </li>
                                 <li className="cbox green-icon">
                                     <div>
                                         <FaRegCheckSquare size={14} color={"#48af4b"} />
                                     </div>
-                                    <p>Vehicle tracking, Parking management, Sticker distribution &amp; MIS Children safety system, Boom barrier integration, Access control system, PPM, DG monitoring</p>
+                                    <p>Balance Sheet automatically prepared.</p>
                                 </li>
                                 <li className="cbox green-icon">
                                     <div>
                                         <FaRegCheckSquare size={14} color={"#48af4b"} />
                                     </div>
-                                    <p>Asset Tagging &amp; Management, Planned Preventive Maintenance ( PPM ), Inventory, Billing, Leasing, Online Payment</p>
+                                    <p>Bulk Posting of Billing & Payments.</p>
+                                </li>
+                                <li className="cbox green-icon">
+                                    <div>
+                                        <FaRegCheckSquare size={14} color={"#48af4b"} />
+                                    </div>
+                                    <p>Integration with Accounting System like SAP/ Tally.</p>
                                 </li>
                             </ul>
                         </div>
@@ -65,4 +69,4 @@ const Enterprise = () => {
     )
 }
 
-export default Enterprise
+export default Account_Management
