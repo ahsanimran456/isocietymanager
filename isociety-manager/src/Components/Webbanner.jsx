@@ -123,15 +123,15 @@ const Webbanner = () => {
                     </div>
                 </div>
             </div>
-            <div className='bg-dark p-2'>
+            <div className='bg-dark p-2 store-icons'>
                 <div className="container">
                     <div className='row'>
                         <div className='col-md-6 col-xs-12 d-flex jusitfy-content-center align-items-center '>
                             <h4 className="text-white m-0">AVAILABLE ON APP STORE AND PLAY STORE </h4>
                         </div>
                         <div className='col-md-6  col-xs-12 text-center p-3' >
-                            <img className='mx-2' src="https://isocietymanager.com/fronts/images/appstore.png" alt="" width={150} height={50} />
-                            <img className='mx-2' src="https://isocietymanager.com/fronts/images/googleplay.png" alt="" width={150} height={50} />
+                            <img className='mx-2 ' src="https://isocietymanager.com/fronts/images/appstore.png" alt="" width={150} height={50} />
+                            <img className='mx-2 ' src="https://isocietymanager.com/fronts/images/googleplay.png" alt="" width={150} height={50} />
                         </div>
                     </div>
                 </div>
@@ -140,7 +140,7 @@ const Webbanner = () => {
                 <FaWhatsapp size={40} />
             </div>
             <div className='chaticon'>
-                Start Free <FaUserCircle  size={25} />
+                Start Free <FaUserCircle size={25} />
             </div>
         </>
     )

@@ -6,7 +6,7 @@ const Assets_Mangement = () => {
             <section>
                 <div className="content-2">
                     <div className="container">
-                        <div className="row w-100 d-flex align-items-center">
+                        <div className="row d-flex align-items-center">
                             <div className="col-md-6 col-xl-5">
                                 <h3>
                                     Asset Management & PPM
@@ -55,7 +55,7 @@ const Assets_Mangement = () => {
                                 </ul>
                             </div>
                             <div className="col-md-6 col-xl-6 offset-xl-1">
-                                <div className='content-2-img'>
+                                <div className='content-2-img '>
                                     <img className='img-fluid' src="https://isocietymanager.com/fronts/images/assetmanagement.png" alt="" />
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ const Assets_Mangement = () => {
             <section >
                 <div className="content-2" style={{ padding: "10px 0" }}>
                     <div className="container">
-                        <div className="row w-100 d-flex align-items-center">
+                        <div className="row  d-flex align-items-center">
                             <div className="col-md-6 col-xl-5">
                                 <h3>
                                     Helpdesk/Complaint Management (IVR)
