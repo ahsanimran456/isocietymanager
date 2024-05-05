@@ -1,5 +1,11 @@
 import React, { useEffect } from 'react'
-
+import { BiLogoFacebook } from "react-icons/bi";
+import { IoLogoInstagram } from "react-icons/io";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaUserCircle } from "react-icons/fa";
 const Webbanner = () => {
     useEffect(() => {
         const handleScroll = () => {
@@ -25,6 +31,7 @@ const Webbanner = () => {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
+
     }, []);
     return (
         <>
@@ -57,6 +64,33 @@ const Webbanner = () => {
                                     </li>
                                     <li>
                                         Sign In
+                                    </li>
+                                    <li className='header-social-links'>
+                                        <div className='fb'>
+                                            <span>
+                                                <BiLogoFacebook />
+                                            </span>
+                                        </div>
+                                        <div className='ins'>
+                                            <span>
+                                                <IoLogoInstagram />
+                                            </span>
+                                        </div>
+                                        <div className='twi'>
+                                            <span>
+                                                <FaTwitter />
+                                            </span>
+                                        </div>
+                                        <div className='lik'>
+                                            <span>
+                                                <FaLinkedin />
+                                            </span>
+                                        </div>
+                                        <div className='yt'>
+                                            <span>
+                                                <FaYoutube />
+                                            </span>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
@@ -101,6 +135,12 @@ const Webbanner = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='whatsappicon'>
+                <FaWhatsapp size={40} />
+            </div>
+            <div className='chaticon'>
+                Start Free <FaUserCircle  size={25} />
             </div>
         </>
     )

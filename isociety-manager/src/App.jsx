@@ -10,6 +10,14 @@ import Account_Management from './Components/Account_Management'
 import Visitor_Management from './Components/Visitor_Management'
 import Maid_Management from './Components/Maid_Management'
 import WeCare from './Components/WeCare'
+import Features from './Components/Features'
+import WHitelabel from './Components/WHitelabel'
+import Society_Management from './Components/Society_Management'
+import OurClients from './Components/OurClients'
+import Feedback from './Components/Feedback'
+import Complaints from './Components/Complaints'
+import Electricity from './Components/Electricity'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -26,6 +34,14 @@ function App() {
       <Visitor_Management />
       <Maid_Management />
       <WeCare />
+      <Features />
+      <WHitelabel />
+      <Society_Management />
+      <OurClients />
+      <Feedback />
+      <Complaints />
+      <Electricity />
+      <Footer />
     </>
   )
 }

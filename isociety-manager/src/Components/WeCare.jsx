@@ -1,6 +1,14 @@
 import React from 'react'
-
+import Slider from "react-slick";
 const WeCare = () => {
+    let settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+    };
     return (
         <section>
             <div className="content-2 content-6">
@@ -13,6 +21,43 @@ const WeCare = () => {
                             Better user experience, and lucid layouts.
                         </p>
 
+                    </div>
+
+                    <div className="slider-container">
+                        <Slider {...settings}>
+                            <div>
+                                <div className='d-flex justify-content-center align-items-center '>
+                                    <div>
+                                        <img src="https://isocietymanager.com/fronts/images/portfolio/screen-4.jpg" alt="" />
+                                    </div>
+                                    <div>
+                                        <img src="https://isocietymanager.com/fronts/images/portfolio/screen-5.jpg" alt="" />
+                                    </div>
+                                    <div>
+                                        <img src="https://isocietymanager.com/fronts/images/portfolio/screen-6.jpg" alt="" />
+                                    </div>
+                                    <div>
+                                        <img src="	https://isocietymanager.com/fronts/images/portfolio/screen-7.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='d-flex justify-content-center align-items-center'>
+                                <div>
+                                        <img src="https://isocietymanager.com/fronts/images/portfolio/screen-4.jpg" alt="" />
+                                    </div>
+                                    <div>
+                                        <img src="https://isocietymanager.com/fronts/images/portfolio/screen-5.jpg" alt="" />
+                                    </div>
+                                    <div>
+                                        <img src="https://isocietymanager.com/fronts/images/portfolio/screen-6.jpg" alt="" />
+                                    </div>
+                                    <div>
+                                        <img src="	https://isocietymanager.com/fronts/images/portfolio/screen-7.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </Slider>
                     </div>
                 </div>
             </div>
