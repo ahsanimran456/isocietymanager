@@ -7,7 +7,7 @@ const Maid_Management = () => {
                 <div className="container">
                     <div className="row d-flex align-items-center">
 
-                        <div className="col-md-6 col-xl-5 offset-xl-1">
+                        <div className="col-md-6 col-xl-5 offset-xl-1"data-aos="fade-left">
                             <h3>
                                 Maid Management - SMART Card Tracking
                             </h3>
@@ -54,7 +54,7 @@ const Maid_Management = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-md-6 col-xl-6">
+                        <div className="col-md-6 col-xl-6"data-aos="fade-right">
                             <div className='content-2-img'>
                                 <img className='img-fluid' src="https://isocietymanager.com/fronts/images/smart-card.jpg" alt="" />
                             </div>

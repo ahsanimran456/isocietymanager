@@ -8,6 +8,7 @@ const Feedback = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        arrows: false,
         customPaging: function (i) {
             return (
                 <button className="slick-dot">
@@ -67,7 +68,8 @@ const Feedback = () => {
                                             </p>
                                         </div>
                                         <div className='slider-content-container '>
-                                            <div className='line-center'></div>
+                                            {/* <div className='line-center'></div> */}
+                                            <hr className='line-center' />
                                             <div className='owner-sl'>
                                                 <div>
                                                     <img src={item.img} alt="" />

@@ -7,7 +7,7 @@ export const Counter = () => {
     return (
         <div className="content-3 bg-dark">
             <div className="container text-white">
-                <div className="row">
+                <div className="row" data-aos="fade-up-right">
                     <div className="col-md-3">
                         <div className="statistic-block text-center">
                             <h4 class="h4-lg letter-spacing">Billing Generated(Cr)</h4>

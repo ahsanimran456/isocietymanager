@@ -6,12 +6,12 @@ const Enterprise = () => {
             <div className="content-2">
                 <div className="container">
                     <div className="row d-flex align-items-center">
-                        <div className="col-md-6 col-xl-6">
+                        <div className="col-md-6 col-xl-6" data-aos="fade-right">
                             <div className='content-2-img'>
                                 <img className='img-fluid' src="https://isocietymanager.com/fronts/images/content-3-3-img.png" alt="" />
                             </div>
                         </div>
-                        <div className="col-md-6 col-xl-5">
+                        <div className="col-md-6 col-xl-5" data-aos="fade-left">
                             <h3>
                                 Enterprise Dashboard Interface
                             </h3>

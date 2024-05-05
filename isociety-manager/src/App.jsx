@@ -18,7 +18,6 @@ import Feedback from './Components/Feedback'
 import Complaints from './Components/Complaints'
 import Electricity from './Components/Electricity'
 import Footer from './Components/Footer'
-
 function App() {
 
   return (

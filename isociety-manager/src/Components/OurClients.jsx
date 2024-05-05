@@ -39,8 +39,8 @@ const OurClients = () => {
                         <div className="row">
                             {data.map((item, index) => {
                                 return (
-                                    <div className="col-sm-4 col-md-3 col-xs-6 mb-2 " key={index}>
-                                        <img style={{ border: '3px solid gray' }} src={item.img} alt="" />
+                                    <div className="col-sm-4 col-md-3 col-xs-6 mb-2 "data-aos="flip-right"  key={index}>
+                                        <img style={{ border: '3px solid gray' }} className='img-fluid' src={item.img} alt="" />
                                     </div>
                                 )
                             })}

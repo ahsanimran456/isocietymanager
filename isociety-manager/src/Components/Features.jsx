@@ -84,7 +84,7 @@ const Features = () => {
                         <div className="row">
                             {data.map((item, index) => {
                                 return (
-                                    <div className='col-md-6 col-lg-3' key={index}>
+                                    <div className='col-md-6 col-lg-3' key={index}data-aos="flip-left">
                                         <div >
                                             <div className="icon mb-3">
                                                 {item.icon}

@@ -13,7 +13,7 @@ const Health = () => {
 
                 </div>
             </section>
-            <section className='refer'>
+            <section className='refer'data-aos="fade-right">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 col-sm-12 col-xs-12">

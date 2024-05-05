@@ -7,7 +7,7 @@ const Assets_Mangement = () => {
                 <div className="content-2">
                     <div className="container">
                         <div className="row d-flex align-items-center">
-                            <div className="col-md-6 col-xl-5">
+                            <div className="col-md-6 col-xl-5" data-aos="fade-right">
                                 <h3>
                                     Asset Management & PPM
                                 </h3>
@@ -54,7 +54,7 @@ const Assets_Mangement = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-md-6 col-xl-6 offset-xl-1">
+                            <div className="col-md-6 col-xl-6 offset-xl-1" data-aos="fade-left">
                                 <div className='content-2-img '>
                                     <img className='img-fluid' src="https://isocietymanager.com/fronts/images/assetmanagement.png" alt="" />
                                 </div>
@@ -67,8 +67,8 @@ const Assets_Mangement = () => {
             <section >
                 <div className="content-2" style={{ padding: "10px 0" }}>
                     <div className="container">
-                        <div className="row  d-flex align-items-center">
-                            <div className="col-md-6 col-xl-5">
+                        <div className="row  d-flex align-items-center" >
+                            <div className="col-md-6 col-xl-5"data-aos="fade-right">
                                 <h3>
                                     Helpdesk/Complaint Management (IVR)
                                 </h3>
@@ -115,7 +115,7 @@ const Assets_Mangement = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-md-6 col-xl-6 offset-xl-1">
+                            <div className="col-md-6 col-xl-6 offset-xl-1" data-aos="fade-left"  >
                                 <div className='content-2-img'>
                                     <img className='img-fluid' src="https://isocietymanager.com/fronts/images/content-3-1-img.png" alt="" />
                                 </div>

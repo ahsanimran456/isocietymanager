@@ -5,14 +5,13 @@ const WHitelabel = () => {
         <section>
             <div className="content-2 content-6">
                 <div className="container">
-                    <div className="row " style={{ flexDirection: "column" }}>
+                    <div className="row " style={{ flexDirection: "column" }}data-aos="fade-right">
                         <h3 className='text-white'>
                             White Label System of your Name
                         </h3>
-                        <p style={{fontSize:25}}>
+                        <p style={{ fontSize: 25 }}>
                             Get Complete System with your Brand & Name
                         </p>
-
                     </div>
                 </div>
             </div>
